@@ -2,6 +2,7 @@ import React, { Component } from "react";
 
 class InputTodo extends Component {
   state = {
+    title: "",
     fName: "",
     lastName: "",
   };
@@ -28,7 +29,8 @@ class InputTodo extends Component {
     return (
       <form onSubmit={this.handleSubmit}>
         <input
-        type="text" placeholder="Add Todo..."
+        type="text"
+        placeholder="Add Todo..."
         value={this.state.title}
         name="title"
         onChange={this.onChange} />
