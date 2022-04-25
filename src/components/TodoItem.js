@@ -1,4 +1,4 @@
-import React from "react"
+import React from "react";
 
 class TodoItem extends React.Component {
   render() {
@@ -6,4 +6,4 @@ class TodoItem extends React.Component {
   }
 }
 
-export default TodoItem
+export default TodoItem;
